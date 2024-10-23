@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #051026;
+    text-align: center;
+}
+h2 {
+    color: #051026;
+    text-align: center;
+}
+h3 {
+    color: #051026;
+    margin-top: 30px;
+}
+p {
+    color: #051026;
+    margin: 10px 0;
+}
+.section {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.section strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #051026;
+}
+/* Estilo de cada habilidad */
+.proyecto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del icono de la habilidad */
+.icono-proyecto {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.p-p {
+    text-align: justify;
+}

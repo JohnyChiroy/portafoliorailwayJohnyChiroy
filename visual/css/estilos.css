@@ -1,0 +1,374 @@
+/*--------------- nuevos index --------------- */
+/* Estilo de la cuadrícula de index */
+.separador2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Tres columnas */
+    gap: 20px;
+    /* Espacio entre las columnas */
+}
+
+.separador2 {
+    /* margin: 40px 0; */
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    background-color: white;
+}
+
+.separador {
+    /* background-color: #fff; */
+    /* padding: 0px; */
+    padding-left: 100px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: justify;
+    color: #051026;
+}
+
+.foto {
+    border-radius: 10%;
+    width: 500px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.cuadro-foto {
+    width: 800px;
+    /* Ancho del cuadro */
+    padding: 15px;
+    /* Espacio interno */
+    color: #051026;
+    /* Color del texto */
+    text-align: center;
+}
+
+.p-i {
+    font-size: 22px;
+    color: #051026;
+}
+
+.h1-i {
+    font-size: 50px;
+    color: #051026;
+    text-align: center;
+}
+
+/*---------------  Habilidades --------------- */
+.p-h {
+    text-align: justify;
+}
+
+/* Estilo del apartado de habilidades */
+.habilidades {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.habilidades h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la cuadrícula de habilidades */
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tres columnas */
+    gap: 20px;
+    /* Espacio entre las columnas */
+}
+
+/* Estilo de cada habilidad */
+.habilidad {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del icono de la habilidad */
+.icono-habilidad {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/*---------------  Portafolio --------------- */
+/*nuevos estilos*/
+.p-p {
+    text-align: justify;
+}
+
+/* Estilo del apartado de habilidades */
+.proyectos {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.proyectos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la cuadrícula de habilidades */
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tres columnas */
+    gap: 20px;
+    /* Espacio entre las columnas */
+}
+
+/* Estilo de cada habilidad */
+.proyecto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del icono de la habilidad */
+.icono-proyecto {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/*---------------  Contactos --------------- */
+.color-b {
+    color: #04D9C4;
+}
+
+.contacto {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Información de contacto */
+.informacion-contacto {
+    margin-bottom: 20px;
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.informacion-contacto a {
+    color: #052A59;
+    text-decoration: none;
+}
+
+.informacion-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Redes sociales */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.redes-icono img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+    margin-top: 20px;
+}
+
+.formulario-contacto h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contacto label {
+    font-size: 16px;
+    color: #333;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.formulario-contacto button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #052A59;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #052A59;
+}
+
+/*---------------  Generales --------------- */
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #052A59;
+    line-height: 40px;
+    text-align: center;
+}
+
+li {
+    width: 120px;
+    display: inline-block;
+    /*nos permite ponerlo en horizontal*/
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    background-color: #052A59;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    /*nos ayuda a conjutar con el bloque para que le texto no sea el unico con el link*/
+    color: #ffffff;
+}
+
+a:hover {
+    background: #0B79D9;
+    color: #000;
+}
+
+
+/* Estilo del contenedor con la imagen de fondo */
+.seccion-foto-descripcion {
+    background-image: url('');
+    /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #051026;
+}
+
+.descripcion {
+    margin-top: px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inTex h1 {
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inTex h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*---------------  Educacion --------------- */
+.estudios {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.estudios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Organizar los estudios en columnas */
+.estudios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tres columnas */
+    gap: 20px;
+    /* Espacio entre columnas */
+}
+
+/* Estilo de cada estudio */
+.estudio {
+    text-align: center;
+    border: 1px solid white;
+    /* Borde ligero alrededor del contenedor */
+    border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px #04D9C4; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estilo de las imágenes */
+.imagen-estudio {
+    width: 50%;
+    height: auto;
+    border-bottom: 1px solid white;
+    /* Borde ligero entre la imagen y la descripción */
+    /* border-radius: 50%;
+    width: 160px;
+    height: 160px;*/
+
+}
+
+/* Estilo de la descripción */
+.descripcion-estudio {
+    padding: 15px;
+    /* background-color: #7ab8bf; */
+    text-align: justify;
+    background-color: white;
+    /* Fondo ligero para la descripción */
+}
+
+.descripcion-estudio h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #020202;
+}
+
+.descripcion-estudio p {
+    font-size: 14px;
+    color: #025159;
+    text-align: justify;
+}
